@@ -7,4 +7,5 @@ def home():
     return "<h1>Hello from Python 👋</h1>"
 
 if __name__ == '__main__':
+    print("server starting...")
     app.run(host='0.0.0.0', port=5000)
